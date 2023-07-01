@@ -26,6 +26,9 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - 1 × Raspberry `Pi 4 Model B`
 - 1 × Raspberry `Pi 2 Model B`
 - Apple Mac Mini `Early 2009`
+- Ubiquiti EdgeRouter X
+  - Ports: `5`
+  - Speed: `1000Mbps`
 - Netgear `GS208` switch:
   - Ports: `8`
   - Speed: `1000Mbps`
@@ -33,6 +36,10 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
   - CPU: `Intel Atom C2538 @ 2.4GHz`
   - RAM: `8GB`
   - HDD: `30TB` (20.9TB Usable)
+
+### Basic Topology
+
+![topo-v1](https://github.com/dancrodev/homelab/assets/2058413/6f50b1f3-28f3-4f42-9415-2a1d89722012)
 
 ### Current Tech Stack
 
