@@ -134,7 +134,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 ### Goals / To-Do List
 
 - [ ] Move components to server rack
-- [ ] Acquire network hardware for VLAN / PXE support
+- [x] Acquire network hardware for VLAN / PXE support
 - [ ] Selfhost Gitlab & develop CI/CD pipelines
 - [ ] Automated MaaS / PXE BARE METAL PROVISION
 - [ ] Automated Terraform VM provisioning
