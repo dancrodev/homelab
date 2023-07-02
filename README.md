@@ -8,6 +8,7 @@
 Project Status: **Planning**
 
 This repo will include my current Homelab stack, resources, provisioning scripts, etc.
+Please view the `CHANGELOG.md` file for more information on changes to the project.
 
 > **What is a Homelab?**
 >
@@ -26,7 +27,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - 1 × Raspberry `Pi 4 Model B`
 - 1 × Raspberry `Pi 2 Model B`
 - Apple Mac Mini `Early 2009`
-- Ubiquiti EdgeRouter X
+- Ubiquiti `EdgeRouter X`
   - Ports: `5`
   - Speed: `1000Mbps`
 - Netgear `GS208` switch:
@@ -151,6 +152,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - [ ] Establish Automated Updates w/ alerts
 - [ ] Establish Hybrid Cloud (On-Prim <-> Cloud) Architecture
 - [ ] Create Github Pages hosted MkDocs site for documentation / tutorials
+- [ ] Upgrade Homelab Switch to Ubiquiti Managed Switch and utilize EdgeRouter PoE ports
 
 ### License
 

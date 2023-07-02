@@ -1,0 +1,52 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Project XenLab
+repo_url: https://github.com/dancrodev/homelab
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - search.highlight
+    - search.share
+  palette:
+    primary: black
+
+extra_css: [style.css]
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+  - def_list
+  - pymdownx.tasklist:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Reference:
+      - reference/index.md
+      - reference/license.md
+      - reference/changelog.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dancrodev
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/danielcrothers
+
+copyright: |
+  &copy; 2023 Daniel Crothers

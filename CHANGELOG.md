@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - 2023-07-01
+
+### Added
+
+- `Mkdocs` pages for documentation
+- `Material Theme` for `Mkdocs`
+- Docs Folder with a few starter pages and custom `style.css` file therein
+
+### Changed
+
+- Added new task and small formatting change to `README.md`
+
 ## [0.0.2] - 2023-07-01
 
 ### Added
