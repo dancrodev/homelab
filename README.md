@@ -18,8 +18,9 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 
 ### Hardware
 
-![setup-v1](https://github.com/dancrodev/homelab/assets/2058413/fababd7c-0531-451c-9cfb-1807eaf17716)
+![setup](https://user-images.githubusercontent.com/2058413/257009553-1d8cb00e-daba-4811-8a7c-ddade5d381d7.jpg)
 
+- Omnimount Design 27U Network Cabinet
 - 3 × Dell SFF `OptiPlex 7040`:
   - CPU: `Intel Quad Core i7-6700 @ 4.0GHz`
   - RAM: `16GB`
@@ -30,8 +31,8 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - Ubiquiti `EdgeRouter X`
   - Ports: `5`
   - Speed: `1000Mbps`
-- Netgear `GS208` switch:
-  - Ports: `8`
+- MokerLink 24 Port PoE Gigabit Managed Switch:
+  - Ports: `24 + 4 GE Uplink + 4 Combo SFP`
   - Speed: `1000Mbps`
 - Synology DS1515+:
   - CPU: `Intel Atom C2538 @ 2.4GHz`
@@ -40,7 +41,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 
 ### Basic Topology
 
-![topo-v1](https://github.com/dancrodev/homelab/assets/2058413/6f50b1f3-28f3-4f42-9415-2a1d89722012)
+![topo-v1](https://user-images.githubusercontent.com/2058413/257009377-67ae1e33-06e0-4547-aa19-cc537a5303d9.png)
 
 ### Current Tech Stack
 
@@ -51,35 +52,11 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"></td>
-        <td><a href="https://www.docker.com">Docker</a></td>
-        <td>Build/Run/Deploy Containers</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/18517161?s=200&v=4"></td>
-        <td><a href="https://www.pivpn.io/">PiVPN</a></td>
-        <td>Raspbery Pi-based VPN Server (Wireguard)</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/22225832?s=200&v=4"></td>
-        <td><a href="https://www.portainer.io/">Portainer</a></td>
-        <td>Container Management</td>
-    </tr>
-    <tr>
         <td><img width="32" src="https://avatars.githubusercontent.com/u/2678585?s=200&v=4"></td>
         <td><a href="https://www.proxmox.com">Proxmox</a></td>
-        <td>Server Virtualization Platform</td>
+        <td>Server Virtualization Platform (Debian)</td>
     </tr>
-    <tr>
-        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/e7d92189-1116-472c-827e-bff10be52cef"></td>
-        <td><a href="https://www.scrypted.app/">Scrypted</a></td>
-        <td>Home Video Integration and Automation Platform.</td>
-    </tr>
-     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/4604537?s=200&v=4"></td>
-        <td><a href="https://ubuntu.com">Ubuntu</a></td>
-        <td>Debian based Linux Distro</td>
-    </tr>
+    
 </table>
 
 ### Planned Tech Stack
@@ -130,11 +107,36 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <td><a href="https://www.gitlab.com">Gitlab</a></td>
         <td>Git Repos / DevOps Toolkit</td>
     </tr>
+    <tr>
+        <td><img width="32" src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"></td>
+        <td><a href="https://www.docker.com">Docker</a></td>
+        <td>Build/Run/Deploy Containers</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/18517161?s=200&v=4"></td>
+        <td><a href="https://www.pivpn.io/">PiVPN</a></td>
+        <td>Raspbery Pi-based VPN Server (Wireguard)</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/22225832?s=200&v=4"></td>
+        <td><a href="https://www.portainer.io/">Portainer</a></td>
+        <td>Container Management</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/e7d92189-1116-472c-827e-bff10be52cef"></td>
+        <td><a href="https://www.scrypted.app/">Scrypted</a></td>
+        <td>Home Video Integration and Automation Platform.</td>
+    </tr>
+     <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/4604537?s=200&v=4"></td>
+        <td><a href="https://ubuntu.com">Ubuntu</a></td>
+        <td>Debian based Linux Distro</td>
+    </tr>
 </table>
 
 ### Goals / To-Do List
 
-- [ ] Move components to server rack
+- [x] Move components to server rack
 - [x] Acquire network hardware for VLAN / PXE support
 - [ ] Selfhost Gitlab & develop CI/CD pipelines
 - [ ] Automated MaaS / PXE BARE METAL PROVISION
@@ -151,8 +153,9 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - [ ] Utilize RaspPi for piKVM
 - [ ] Establish Automated Updates w/ alerts
 - [ ] Establish Hybrid Cloud (On-Prim <-> Cloud) Architecture
-- [ ] Create Github Pages hosted MkDocs site for documentation / tutorials
-- [ ] Upgrade Homelab Switch to Ubiquiti Managed Switch and utilize EdgeRouter PoE ports
+- [x] Create Github Pages hosted MkDocs site for documentation / tutorials
+- [x] Upgrade small Switchs to Rackmount Switch
+- [ ] Cable Management
 
 ### License
 
