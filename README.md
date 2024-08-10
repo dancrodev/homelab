@@ -5,7 +5,7 @@
 
 ### Overview
 
-Project Status: **Planning**
+Project Status: **In Progress**
 
 This repo will include my current Homelab stack, resources, provisioning scripts, etc.
 Please view the `CHANGELOG.md` file for more information on changes to the project.
@@ -18,30 +18,31 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 
 ### Hardware
 
-![setup](https://user-images.githubusercontent.com/2058413/257009553-1d8cb00e-daba-4811-8a7c-ddade5d381d7.jpg)
+![setup](https://github.com/user-attachments/assets/d4ad2afd-b896-4e8a-83d6-1426497ceed8)
 
 - Omnimount Design 27U Network Cabinet
 - 3 × Dell SFF `OptiPlex 7040`:
   - CPU: `Intel Quad Core i7-6700 @ 4.0GHz`
   - RAM: `16GB`
   - SSD: `512GB`
-- 1 × Raspberry `Pi 4 Model B`
-- 1 × Raspberry `Pi 2 Model B`
-- Apple Mac Mini `Early 2009`
-- Ubiquiti `EdgeRouter X`
-  - Ports: `5`
-  - Speed: `1000Mbps`
-- MokerLink 24 Port PoE Gigabit Managed Switch:
-  - Ports: `24 + 4 GE Uplink + 4 Combo SFP`
-  - Speed: `1000Mbps`
+- 1 × Rasbperry `Pi 5`
+- 3 × Raspberry `Pi 4 Model B`
+- Apple `Mac Mini M2`
+- Ubiquiti `Dream Machine Special Edition`
+  - Ports: `(8) GbE w/ PoE (2 w/ PoE+), (2) 10G SFP+, (1) 2.5 GbE WAN Port` 
+- Ubiquiti `Switch Pro 24`
+  - Ports: `24x GbE RJ45, 2x 10G SFP+`
+- Ubiquiti `UniFi Cable Internet`
+  - Ports: `(1) DOCSIS 3.1, (1) 2.5 GbE`
 - Synology DS1515+:
   - CPU: `Intel Atom C2538 @ 2.4GHz`
   - RAM: `8GB`
   - HDD: `30TB` (20.9TB Usable)
+- Tripp Lite `SMART1500LCD Smart Battery Backup`
 
 ### Basic Topology
 
-![topo-v1](https://user-images.githubusercontent.com/2058413/257009377-67ae1e33-06e0-4547-aa19-cc537a5303d9.png)
+![topo-v1](https://github.com/dancrodev/homelab/assets/2058413/448de288-9811-4736-a1e3-87d58a74aebc)
 
 ### Current Tech Stack
 
@@ -52,9 +53,19 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <th>Description</th>
     </tr>
     <tr>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/4604537?s=200&v=4"></td>
+        <td><a href="https://ubuntu.com">Ubuntu</a></td>
+        <td>Debian based Linux Distro</td>
+    </tr>
+    <tr>
         <td><img width="32" src="https://avatars.githubusercontent.com/u/2678585?s=200&v=4"></td>
         <td><a href="https://www.proxmox.com">Proxmox</a></td>
         <td>Server Virtualization Platform (Debian)</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/e7d92189-1116-472c-827e-bff10be52cef"></td>
+        <td><a href="https://www.scrypted.app/">Scrypted</a></td>
+        <td>Home Video Integration and Automation Platform.</td>
     </tr>
     
 </table>
@@ -63,13 +74,13 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 
 <table>
     <tr>
-        <td><img width="32" src="https://simpleicons.org/icons/ansible.svg"></td>
+        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/ansible-red.svg"></td>
         <td><a href="https://www.ansible.com">Ansible</a></td>
         <td>Automated bare metal/VM  provisioning and configuration</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/9289019?s=200&v=4"></td>
-        <td><a href="https://letsencrypt.org/">Let's Encrypt</a></td>
+        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/letsencrypt.svg"></td>
+        <td><a href="https://letsencrypt.org/">Let's&nbsp;Encrypt</a></td>
         <td>Automated Open Certificates</td>
     </tr>
     <tr>
@@ -83,7 +94,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <td>Operational dashboards</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cncf-branding.netlify.app/img/projects/kubernetes/icon/color/kubernetes-icon-color.svg"></td>
+        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/kubernetes.svg"></td>
         <td><a href="https://kubernetes.io">Kubernetes</a></td>
         <td>Container Orchestration System</td>
     </tr>
@@ -93,9 +104,9 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <td>Reverse Proxy / HTTP Sever</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://simpleicons.org/icons/vault.svg"></td>
-        <td><a href="https://www.vaultproject.io">Vault</a></td>
-        <td>Secrets and encryption management system</td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/107880645?s=200&v=4"></td>
+        <td><a href="https://infisical.com/">Infisical</a></td>
+        <td>Open Source Secrets management system</td>
     </tr>
     <tr>
         <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/d14a5113-bee4-459e-9eb5-299ac2cab111"></td>
@@ -122,22 +133,13 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <td><a href="https://www.portainer.io/">Portainer</a></td>
         <td>Container Management</td>
     </tr>
-    <tr>
-        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/e7d92189-1116-472c-827e-bff10be52cef"></td>
-        <td><a href="https://www.scrypted.app/">Scrypted</a></td>
-        <td>Home Video Integration and Automation Platform.</td>
-    </tr>
-     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/4604537?s=200&v=4"></td>
-        <td><a href="https://ubuntu.com">Ubuntu</a></td>
-        <td>Debian based Linux Distro</td>
-    </tr>
 </table>
 
 ### Goals / To-Do List
 
 - [x] Move components to server rack
 - [x] Acquire network hardware for VLAN / PXE support
+- [x] Upgrade to Unifi Router/Hardware Stack
 - [ ] Selfhost Gitlab & develop CI/CD pipelines
 - [ ] Automated MaaS / PXE BARE METAL PROVISION
 - [ ] Automated Terraform VM provisioning
@@ -168,5 +170,7 @@ Here is a list of some of the great people who have directly or indirectly contr
 
 - ![](https://github.com/khuedoan.png?size=24) [@khuedoan](https://github.com/khuedoan)
 - ![](https://github.com//techno-tim.png?size=24) [@techno-tim](https://github.com//techno-tim)
+- ![](https://github.com//loganmarchione.png?size=24) [@loganmarchione](https://github.com/loganmarchione/homelab-svg-assets)
+
 
 If I missed you from this list, please reach out so I can correct it.

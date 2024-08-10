@@ -36,6 +36,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Past Photos: photos.md
   - Reference:
       - reference/index.md
       - reference/license.md
@@ -49,4 +50,4 @@ extra:
       link: https://www.linkedin.com/in/danielcrothers
 
 copyright: |
-  &copy; 2023 Daniel Crothers
+  &copy; 2024 Daniel Crothers
