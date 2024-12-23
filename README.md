@@ -53,53 +53,72 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/4604537?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ubuntu.png"></td>
         <td><a href="https://ubuntu.com">Ubuntu</a></td>
         <td>Debian based Linux Distro</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/2678585?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/proxmox.png"></td>
         <td><a href="https://www.proxmox.com">Proxmox</a></td>
         <td>Server Virtualization Platform (Debian)</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/e7d92189-1116-472c-827e-bff10be52cef"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/scrypted.png"></td>
         <td><a href="https://www.scrypted.app/">Scrypted</a></td>
         <td>Home Video Integration and Automation Platform.</td>
     </tr>
-    
+    <tr>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kubernetes.png"></td>
+        <td><a href="https://k3s.io">Kubernetes (K3s)</a></td>
+        <td>Container Orchestration System</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/docker.png"></td>
+        <td><a href="https://www.docker.com">Docker</a></td>
+        <td>Build/Run/Deploy Containers</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/portainer.png"></td>
+        <td><a href="https://www.portainer.io/">Portainer</a></td>
+        <td>Container Management</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/synology.png"></td>
+        <td><a href="https://synology.com/">Synology</a></td>
+        <td>Network Attached Storage</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pi-hole.png"></td>
+        <td><a href="https://pi-hole.net/">PiHole</a></td>
+        <td>On-Prem DNS + Privacy</td>
+    </tr>
 </table>
 
 ### Planned Tech Stack
 
 <table>
     <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/ansible-red.svg"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ansible.png"></td>
         <td><a href="https://www.ansible.com">Ansible</a></td>
         <td>Automated bare metal/VM  provisioning and configuration</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/letsencrypt.svg"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lets-encrypt.png"></td>
         <td><a href="https://letsencrypt.org/">Let's&nbsp;Encrypt</a></td>
         <td>Automated Open Certificates</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/314135?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflare.png"></td>
         <td><a href="https://www.cloudflare.com">Cloudflare</a></td>
         <td>DNS and Tunnel</td>
     </tr>
      <tr>
-        <td><img width="32" src="https://grafana.com/static/img/menu/grafana2.svg"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grafana.png"></td>
         <td><a href="https://grafana.com">Grafana</a></td>
         <td>Operational dashboards</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/kubernetes.svg"></td>
-        <td><a href="https://kubernetes.io">Kubernetes</a></td>
-        <td>Container Orchestration System</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/1412239?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx.png"></td>
         <td><a href="https://www.nginx.com">NGINX</a></td>
         <td>Reverse Proxy / HTTP Sever</td>
     </tr>
@@ -109,29 +128,19 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
         <td>Open Source Secrets management system</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://github.com/dancrodev/homelab/assets/2058413/d14a5113-bee4-459e-9eb5-299ac2cab111"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/terraform.png"></td>
         <td><a href="https://www.terraform.io/">Terraform</a></td>
         <td>Automation / IaC (Infrastructure as code)</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/22105643?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gitlab.png"></td>
         <td><a href="https://www.gitlab.com">Gitlab</a></td>
         <td>Git Repos / DevOps Toolkit</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"></td>
-        <td><a href="https://www.docker.com">Docker</a></td>
-        <td>Build/Run/Deploy Containers</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/18517161?s=200&v=4"></td>
+        <td><img width="32" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pivpn.png"></td>
         <td><a href="https://www.pivpn.io/">PiVPN</a></td>
         <td>Raspbery Pi-based VPN Server (Wireguard)</td>
-    </tr>
-    <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/22225832?s=200&v=4"></td>
-        <td><a href="https://www.portainer.io/">Portainer</a></td>
-        <td>Container Management</td>
     </tr>
 </table>
 
@@ -140,7 +149,7 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - [x] Move components to server rack
 - [x] Acquire network hardware for VLAN / PXE support
 - [x] Upgrade to Unifi Router/Hardware Stack
-- [ ] Selfhost Gitlab & develop CI/CD pipelines
+- [ ] Selfhost Gitlab & develop CI/CD pipelines                                                            
 - [ ] Automated MaaS / PXE BARE METAL PROVISION
 - [ ] Automated Terraform VM provisioning
 - [ ] Automated Ansible/Packer Configuration Management
@@ -158,6 +167,8 @@ I want to thank [@khuedoan](https://github.com/khuedoan) for inspiring me to pre
 - [x] Create Github Pages hosted MkDocs site for documentation / tutorials
 - [x] Upgrade small Switchs to Rackmount Switch
 - [ ] Cable Management
+- [ ] Upgrade Synology NAS to Rackmount 1U version
+- [ ] Transfer `PlexServ` from desktop chassis to rackmount chassis with riser card
 
 ### License
 
@@ -169,8 +180,8 @@ See `LICENSE.md` file for more information.
 Here is a list of some of the great people who have directly or indirectly contributed to this project:
 
 - ![](https://github.com/khuedoan.png?size=24) [@khuedoan](https://github.com/khuedoan)
-- ![](https://github.com//techno-tim.png?size=24) [@techno-tim](https://github.com//techno-tim)
-- ![](https://github.com//loganmarchione.png?size=24) [@loganmarchione](https://github.com/loganmarchione/homelab-svg-assets)
+- ![](https://github.com/techno-tim.png?size=24) [@techno-tim](https://github.com//techno-tim)
+- ![](https://github.com/walkxcode.png?size=24) [@walkxcode](https://github.com/walkxcode/dashboard-icons)
 
 
 If I missed you from this list, please reach out so I can correct it.

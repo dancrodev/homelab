@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.8] - 2024-12-22
+
+### Added
+
+- Setup `K3s` on `Alpha`, `Bravo`, `Charlie` management RPi Servers
+- Installed `Portainer` (Portainer.com) on `Konsole` management server
+- Installed `PiHole` container on `Konsole`
+- Installed `Homepage` (gethomepage.dev) to `Konsole` management RPi + configuration
+
+### Changed
+
+- Switched DNS servers on `Dream Machine SE` to point to local `PiHole` service
+- Modified VLAN + Firewall rules so that all endpoints can access the `PiHole` service
+- Every service icon on `README.md` to [dashboard icons](https://github.com/walkxcode/dashboard-icons?tab=readme-ov-file#-usage) (except `Infisical`, which isn't represented for whatever reason)
+- Updated tech stack lists on `README.md` to represent currently installed/used services 
+
+
+## [0.0.7] - 2024-10-14
+
+### Added
+
+- Installed `Kavita` docker container on `Synology NAS`
+
+### Changed
+
+- Migrated `Plex` from `Synology NAS` to my former gaming computer. Planning on getting a 3U Rackmount Chasis to rackmount this computer.
+
+### Removed 
+
+- `Plex` docker container on `Synology NAS`
 
 ## [0.0.6] - 2024-08-07
 
